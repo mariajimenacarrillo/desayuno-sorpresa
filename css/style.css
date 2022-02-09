@@ -53,7 +53,7 @@ header{
 }
 main{
     
-    background-image:radial-gradient(rgb(207, 182, 182);
+    background-image:radial-gradient(rgb(207, 182, 182));
     background-color: rgb(233, 135, 135);
 }
 
@@ -105,4 +105,16 @@ p{
 
 }
    
+.contenedor-desayunos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+    
+}
+.item-desayuno{
+    width: 45%;
+}
 
+.item-desayuno-img {
+    width: 100%;
+}
