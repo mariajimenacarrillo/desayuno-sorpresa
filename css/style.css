@@ -11,6 +11,20 @@
                           "footer""footer""footer";
 }*/
 
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #ffd8f0;
+
+}
+
 .main-index {
   background-color: beige;
 }
@@ -26,7 +40,7 @@ header {
   background-color: rgb(10, 9, 9);
   background-image: radial-gradient(
     rgb(238, 174, 174) 20%,
-    rgb(236, 98, 98) 80%
+    rgb(165, 113, 113) 80%
   );
 }
 
