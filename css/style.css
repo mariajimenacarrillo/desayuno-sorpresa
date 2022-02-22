@@ -74,6 +74,8 @@ main {
 
 /*------------adicionales--------------*/
 
+
+
 main {
   display: grid;
   grid-template-areas: ;
@@ -94,7 +96,7 @@ main {
 .titulo-ubicacion {
   /*Loana: no me toma los colores QUE PUSE DE PRUEBA:qué hice mal?*/
   grid-area: h2;
-  color: darkblue;
+  color: rgb(189, 178, 178);
 }
 p {
   grid-area: p;
